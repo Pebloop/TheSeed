@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: c4c4cbaf15af36242879e798fd85ab38
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.2/Experimental - SceneUnderstanding/Scenes/SceneUnderstandingExample.unity
+    guid: d42a352dc9a8c4d4990a924687759199
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f561fe69c03a5a740a2cd2a0e88a2265,
       type: 2}

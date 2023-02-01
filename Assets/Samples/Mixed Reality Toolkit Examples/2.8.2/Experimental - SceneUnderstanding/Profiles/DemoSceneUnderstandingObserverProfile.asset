@@ -28,7 +28,7 @@ MonoBehaviour:
     type: 2}
   shouldLoadFromFile: 0
   serializedScene: {fileID: 4900000, guid: cbf0602262c70ec4fbc01971010e5aca, type: 3}
-  createGameObjects: 1
+  createGameObjects: 0
   requestPlaneData: 0
   requestMeshData: 1
   inferRegions: 0
