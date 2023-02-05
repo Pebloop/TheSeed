@@ -1,19 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
+/*
+ * The player info
+ *
+ * Author: Pebloop
+ * Date: 2023-02-05
+ * 
+ */
+
 using UnityEngine;
 
-public class PlayerInfo : MonoBehaviour
+namespace TheSeed.Player
 {
-    public int inventorySize = 16;
-    // Start is called before the first frame update
-    void Start()
+    public class PlayerInfo : MonoBehaviour
     {
+        public int inventorySize = 16;
+    
+        // Start is called before the first frame update
+        void Start()
+        {
         
-    }
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
+        // Update is called once per frame
+        void Update()
+        {
         
+        }
     }
 }

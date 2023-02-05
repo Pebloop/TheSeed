@@ -20,18 +20,27 @@ namespace TheSeed.Database
         /// <summary>
         /// The quest unique identifier.
         /// </summary>
-        [SerializeField] private string uid { get; } = "QUEST";
+        [SerializeField] private string uid = "QUEST";
         
         /// <summary>
         /// The quest name.
         /// </summary>
-        [SerializeField] private string name { get; } = "Quest";
+        [SerializeField] private string name = "Quest";
         
         /// <summary>
         /// The zone description.
         /// </summary>
-        [SerializeField] private string description { get; } = "DESCRIPTION";
-    
-
+        [SerializeField] private string description = "DESCRIPTION";
+        
+        // getters
+        public string Uid => uid;
+        public string Name => name;
+        public string Description => description;
+        
+        // setters
+        public void SetUid(string mUid) => this.uid = uid;
+        public void SetName(string mName) => this.name = name;
+        public void SetDescription(string mDescription) => this.description = description;
+        
     }
 }

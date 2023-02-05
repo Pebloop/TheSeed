@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TheSeed.Player;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour

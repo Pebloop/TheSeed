@@ -15,14 +15,14 @@ namespace TheSeed.Editor.DataBase
     /// </summary>
     public class MonsterEditor : CategoryEditor
     {
-        
         /// <summary>
         /// Initializes the monster editor.
         /// </summary>
-        /// <param name="serializedObject"> The serialized editor </param>
-        public override void OnEnable(SerializedObject serializedObject)
+        /// <param name="dataBase">The database</param>
+        public override void OnEnable(Database.DataBase dataBase)
         {
         }
+        
 
         /// <summary>
         /// Draws the monster editor.
